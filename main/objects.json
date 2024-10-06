@@ -1,0 +1,419 @@
+{
+    "notes": [
+        {
+            "objID": 0,
+            "text": "Welcome to the adventure! Collect all notes to complete the game.",
+            "collected": false,
+            "x": 440,
+            "y": 200,
+            "width": 200,
+            "height": 200
+        },
+        {
+            "objID": 1,
+            "text": "Beware of the dark forest ahead. Many players have gotten lost!",
+            "collected": false,
+            "x": 660,
+            "y": 200,
+            "width": 200,
+            "height": 200
+        },
+        {
+            "objID": 2,
+            "text": "You can find hidden treasures in the caves. Keep your eyes open!",
+            "collected": false,
+            "x": 880,
+            "y": 200,
+            "width": 200,
+            "height": 200
+        },
+        {
+            "objID": 3,
+            "text": "The key to the castle is hidden under a rock near the river.",
+            "collected": false,
+            "x": 1100,
+            "y": 200,
+            "width": 200,
+            "height": 200
+        },
+        {
+            "objID": 4,
+            "text": "Remember to save your progress regularly!",
+            "collected": false,
+            "x": 440,
+            "y": 420,
+            "width": 200,
+            "height": 200
+        }
+    ],
+    "mobs": [
+        {
+            "objID": 0,
+            "name": "Blobfish",
+            "type": "neutral",
+            "description": {
+                "habitat": "In open water",
+                "food": "Seaweed and planktons",
+                "behavior": "Usually go in flock"
+            },
+            "found": false,
+            "block": {
+                "x": 440,
+                "y": 200,
+                "width": 200,
+                "height": 200
+            },
+            "x": 440,
+            "y": 200,
+            "width": 126,
+            "height": 102,
+            "hp": 100,
+            "sprite": "Blobfish"
+        },
+        {
+            "objID": 1,
+            "name": "Flish Flosh",
+            "type": "neutral",
+            "description": {
+                "habitat": "Live in open water",
+                "food": "They feed on planktons and dead fishes",
+                "behavior": "They are fast, but harmless"
+            },
+            "found": false,
+            "block": {
+                "x": 660,
+                "y": 200,
+                "width": 200,
+                "height": 200
+            },
+            "x": 660,
+            "y": 200,
+            "width": 34,
+            "height": 39,
+            "hp": 80,
+            "sprite": "Flishflosh"
+        },
+        {
+            "objID": 2,
+            "name": "Snalker",
+            "type": "aggressive",
+            "description": {
+                "habitat": "They live on continental shelf",
+                "food": "They eat seaweed and sometimes meat if they are too hungry",
+                "behavior": "They move slowly to save energy, but when theres prey around, they become fast"
+            },
+            "found": false,
+            "block": {
+                "x": 880,
+                "y": 200,
+                "width": 200,
+                "height": 200
+            },
+            "x": 880,
+            "y": 200,
+            "width": 132,
+            "height": 114,
+            "hp": 150,
+            "sprite": "Snalker"
+        },
+        {
+            "objID": 3,
+            "name": "Tinylodon",
+            "type": "aggressive",
+            "description": {
+                "habitat": "They live on continental shelf",
+                "food": "They eat other creatures such as blobfish or flish flosh if they come close",
+                "behavior": "It is fast and will chase you if you come too close"
+            },
+            "found": false,
+            "block": {
+                "x": 1100,
+                "y": 200,
+                "width": 200,
+                "height": 200
+            },
+            "x": 1100,
+            "y": 200,
+            "width": 171,
+            "height": 180,
+            "hp": 200,
+            "sprite": "Tinylodon"
+        },
+        {
+            "objID": 4,
+            "name": "Pinky Slinky",
+            "type": "neutral",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 440,
+                "y": 420,
+                "width": 200,
+                "height": 200
+            },
+            "x": 440,
+            "y": 420,
+            "width": 93,
+            "height": 96,
+            "hp": 100,
+            "sprite": "Pinkyslinky"
+        },
+        {
+            "objID": 5,
+            "name": "Ram Boo Tan!",
+            "type": "aggressive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 660,
+                "y": 420,
+                "width": 200,
+                "height": 200
+            },
+            "x": 660,
+            "y": 420,
+            "width": 320,
+            "height": 240,
+            "hp": 1000,
+            "sprite": "Rambutan"
+        },
+        {
+            "objID": 6,
+            "name": "Bluejelly",
+            "type": "passive",
+            "description": {
+                "habitat": "Rivers and lakes",
+                "food": "Fish and plants",
+                "behavior": "Heals players"
+            },
+            "found": false,
+            "block": {
+                "x": 880,
+                "y": 420,
+                "width": 200,
+                "height": 200
+            },
+            "x": 880,
+            "y": 420,
+            "width": 128,
+            "height": 128,
+            "hp": 200,
+            "sprite": "Bluejelly"
+        },
+        {
+            "objID": 7,
+            "name": "Pinkjelly",
+            "type": "passive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 1100,
+                "y": 420,
+                "width": 200,
+                "height": 200
+            },
+            "x": 1100,
+            "y": 420,
+            "width": 128,
+            "height": 128,
+            "hp": 100,
+            "sprite": "Pinkjelly"
+        },
+        {
+            "objID": 8,
+            "name": "Sparkjelly",
+            "type": "aggressive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 440,
+                "y": 640,
+                "width": 200,
+                "height": 200
+            },
+            "x": 440,
+            "y": 640,
+            "width": 128,
+            "height": 128,
+            "hp": 1000,
+            "sprite": "Sparkjelly"
+        },
+        {
+            "objID": 9,
+            "name": "Coralhead",
+            "type": "passive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 660,
+                "y": 640,
+                "width": 200,
+                "height": 200
+            },
+            "x": 660,
+            "y": 640,
+            "width": 128,
+            "height": 128,
+            "hp": 100,
+            "sprite": "Coralhead"
+        },
+        {
+            "objID": 10,
+            "name": "Whitejelly",
+            "type": "aggressive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 880,
+                "y": 640,
+                "width": 200,
+                "height": 200
+            },
+            "x": 880,
+            "y": 640,
+            "width": 128,
+            "height": 128,
+            "hp": 1000,
+            "sprite": "Whitejelly"
+        },
+        {
+            "objID": 11,
+            "name": "Rocky",
+            "type": "aggressive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 880,
+                "y": 640,
+                "width": 200,
+                "height": 200
+            },
+            "x": 880,
+            "y": 640,
+            "width": 128,
+            "height": 128,
+            "hp": 1000,
+            "sprite": "Rocky"
+        },
+        {
+            "objID": 12,
+            "name": "Klam",
+            "type": "aggressive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 880,
+                "y": 640,
+                "width": 200,
+                "height": 200
+            },
+            "x": 880,
+            "y": 640,
+            "width": 128,
+            "height": 128,
+            "hp": 1000,
+            "sprite": "Klam"
+        },
+        {
+            "objID": 13,
+            "name": "Plankto",
+            "type": "aggressive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 880,
+                "y": 640,
+                "width": 200,
+                "height": 200
+            },
+            "x": 880,
+            "y": 640,
+            "width": 128,
+            "height": 128,
+            "hp": 1000,
+            "sprite": "Plankton"
+        },
+        {
+            "objID": 14,
+            "name": "Skelonia",
+            "type": "aggressive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 880,
+                "y": 640,
+                "width": 200,
+                "height": 200
+            },
+            "x": 880,
+            "y": 640,
+            "width": 128,
+            "height": 128,
+            "hp": 1000,
+            "sprite": "Stupish"
+        },
+        {
+            "objID": 15,
+            "name": "Stonebug",
+            "type": "aggressive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 880,
+                "y": 640,
+                "width": 200,
+                "height": 200
+            },
+            "x": 880,
+            "y": 640,
+            "width": 128,
+            "height": 128,
+            "hp": 1000,
+            "sprite": "Stonebug"
+        }
+    ]
+}

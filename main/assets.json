@@ -1,0 +1,227 @@
+{
+    "sprites": [
+        {
+            "name": "Max",
+            "url": "/MAXION/assets/sprites/player/Max.png",
+            "width": 64,
+            "height": 128,
+            "frame": 14
+        },
+        {
+            "name": "Max1",
+            "url": "/MAXION/assets/sprites/player/Max1.png",
+            "width": 128,
+            "height": 64,
+            "frame": 20
+        },
+        {
+            "name": "Max2",
+            "url": "/MAXION/assets/sprites/player/Max2.png",
+            "width": 128,
+            "height": 64,
+            "frame": 20
+        },
+        {
+            "name": "Blobfish",
+            "url": "/MAXION/assets/sprites/mobs/Blobfish.png",
+            "width": 63,
+            "height": 51,
+            "frame": 4
+        },
+        {
+            "name": "Blobfish1",
+            "url": "/MAXION/assets/sprites/mobs/Blobfish1.png",
+            "width": 63,
+            "height": 51,
+            "frame": 4
+        },
+        {
+            "name": "Flishflosh",
+            "url": "/MAXION/assets/sprites/mobs/Flishflosh.png",
+            "width": 34,
+            "height": 39,
+            "frame": 5
+        },
+        {
+            "name": "Flishflosh1",
+            "url": "/MAXION/assets/sprites/mobs/Flishflosh1.png",
+            "width": 34,
+            "height": 39,
+            "frame": 5
+        },
+        {
+            "name": "Snalker",
+            "url": "/MAXION/assets/sprites/mobs/Snalker.png",
+            "width": 66,
+            "height": 57,
+            "frame": 6
+        },
+        {
+            "name": "Snalker1",
+            "url": "/MAXION/assets/sprites/mobs/Snalker1.png",
+            "width": 66,
+            "height": 57,
+            "frame": 6
+        },
+        {
+            "name": "Pinkyslinky",
+            "url": "/MAXION/assets/sprites/mobs/Pinkyslinky.png",
+            "width": 32,
+            "height": 32,
+            "frame": 5
+        },
+        {
+            "name": "Rambutan",
+            "url": "/MAXION/assets/sprites/mobs/Rambutan.png",
+            "width": 64,
+            "height": 48,
+            "frame": 17
+        },
+        {
+            "name": "Rambutan1",
+            "url": "/MAXION/assets/sprites/mobs/Rambutan1.png",
+            "width": 64,
+            "height": 48,
+            "frame": 17
+        },
+        {
+            "name": "Tinylodon",
+            "url": "/MAXION/assets/sprites/mobs/Tinylodon.png",
+            "width": 57,
+            "height": 60,
+            "frame": 8
+        },
+        {
+            "name": "Tinylodon1",
+            "url": "/MAXION/assets/sprites/mobs/Tinylodon1.png",
+            "width": 57,
+            "height": 60,
+            "frame": 8
+        },
+        {
+            "name": "Bluejelly",
+            "url": "/MAXION/assets/sprites/mobs/Bluejelly.png",
+            "width": 64,
+            "height": 64,
+            "frame": 4
+        },
+        {
+            "name": "Whitejelly",
+            "url": "/MAXION/assets/sprites/mobs/Whitejelly.png",
+            "width": 64,
+            "height": 64,
+            "frame": 4
+        },
+        {
+            "name": "Pinkjelly",
+            "url": "/MAXION/assets/sprites/mobs/Pinkjelly.png",
+            "width": 64,
+            "height": 64,
+            "frame": 4
+        },
+        {
+            "name": "Sparkjelly",
+            "url": "/MAXION/assets/sprites/mobs/Sparkjelly.png",
+            "width": 64,
+            "height": 64,
+            "frame": 9
+        },
+        {
+            "name": "Coralhead",
+            "url": "/MAXION/assets/sprites/mobs/Coralhead.png",
+            "width": 72,
+            "height": 66,
+            "frame": 19
+        },
+        {
+            "name": "Coralhead1",
+            "url": "/MAXION/assets/sprites/mobs/Coralhead1.png",
+            "width": 72,
+            "height": 66,
+            "frame": 19
+        },
+        {
+            "name": "Stupish",
+            "url": "/MAXION/assets/sprites/mobs/Stupish.png",
+            "width": 96,
+            "height": 64,
+            "frame": 8
+        },
+        {
+            "name": "Stupish1",
+            "url": "/MAXION/assets/sprites/mobs/Stupish1.png",
+            "width": 96,
+            "height": 64,
+            "frame": 8
+        },
+        {
+            "name": "Rocky",
+            "url": "/MAXION/assets/sprites/mobs/Rocky.png",
+            "width": 64,
+            "height": 64,
+            "frame": 14
+        },
+        {
+            "name": "Stonebug",
+            "url": "/MAXION/assets/sprites/mobs/Stonebug.png",
+            "width": 60,
+            "height": 51,
+            "frame": 12
+        },
+        {
+            "name": "Stonebug1",
+            "url": "/MAXION/assets/sprites/mobs/Stonebug1.png",
+            "width": 60,
+            "height": 51,
+            "frame": 12
+        },
+        {
+            "name": "Klam",
+            "url": "/MAXION/assets/sprites/mobs/Klam.png",
+            "width": 88,
+            "height": 84,
+            "frame": 13
+        },
+        {
+            "name": "Plankton",
+            "url": "/MAXION/assets/sprites/mobs/Plankton.png",
+            "width": 128,
+            "height": 32,
+            "frame": 15
+        },
+        {
+            "name": "note",
+            "url": "/MAXION/assets/sprites/item/note.png",
+            "width": 64,
+            "height": 64,
+            "frame": 1
+        }
+    ],
+
+    "tilesets": [
+        {
+            "name": "tileset1",
+            "url": "/MAXION/assets/tilesets/tileset1.png"
+        },
+        {
+            "name": "tileset2",
+            "url": "/MAXION/assets/tilesets/tileset2.png"
+        },
+        {
+            "name": "tileset3",
+            "url": "/MAXION/assets/tilesets/tileset3.png"
+        },
+        {
+            "name": "tileset4",
+            "url": "/MAXION/assets/tilesets/tileset4.png"
+        },
+        {
+            "name": "background4",
+            "url": "/MAXION/assets/tilesets/background4.png"
+        },
+        {
+            "name": "background3",
+            "url": "/MAXION/assets/tilesets/background3.png"
+        }
+    ]
+}
