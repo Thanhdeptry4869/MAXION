@@ -30,9 +30,9 @@ export function displayMenu(c, currentMenu, noteArray, mobArray, sprites, curren
         }
     } else {
         for(const mobObject of mobArray) {
-            const ratio = 200 / mobObject.width;
+            const ratio = 120 / mobObject.width;
             c.fillStyle = mobObject.found ? 'pink' : 'black';
-            c.fillRect(mobObject.x, mobObject.y, 200, 200);
+            c.fillRect(mobObject.x, mobObject.y, 120, 120);
             drawSprite(mobObject, c, sprites[mobObject.sprite], currentFrame, ratio);
         }
     }

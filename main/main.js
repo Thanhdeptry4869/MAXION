@@ -40,7 +40,7 @@ let dark = false;
 let currentNote;
 let currentMob;
 let currentText;
-let currentMap = 0;
+let currentMap = 'map0';
 const fps = 8;
 
 async function initializeGame() {
@@ -52,30 +52,30 @@ async function initializeGame() {
         mobArray = result[1];
         tileMap = await loadMaps(); // Await loading map
         assets = await loadAssets(); // Await loading assets
-        collidableObject = loadPlatforms(tileMap.map1.platforms);
-        tileArray = loadTiles(tileMap.map1, assets.tilesets);
+        collidableObject = loadPlatforms(tileMap[currentMap].platforms);
+        tileArray = loadTiles(tileMap[currentMap], assets.tilesets);
         noteArray.forEach((note) => {
-            tileMap.map1.objects.notes.forEach((object) => {
+            tileMap[currentMap].objects.notes.forEach((object) => {
                 if(note.objID === object.objID) {
                     collectableObject.push(new Note(note.objID, object.x, object.y, note.text, assets.sprites[note]));
                 }
             })
         }),
         mobArray.forEach((mob) => {
-            tileMap.map1.objects.mobs.forEach((object) => {
+            tileMap[currentMap].objects.mobs.forEach((object) => {
                 if(mob.objID === object.objID) {
                     findableMobs.push(createMob(mob, object, assets.sprites));
                 }
             })
         })
         displayMsg = true;
-        currentText = 'Press F to open menu and Space to collect Notes, hold LMB on mobs to inspect them!';
+        currentText = 'Press F to open menu and Space to collect Notes, hold LMB on mobs to inspect them!\nThis is the demo, so collect all 5 notes to go to the next map!';
         requestAnimationFrame(updateFrame); // Start game loop
     } catch (error) {
         console.error('Error initializing the game:', error);
     }
     console.log(assets.sprites);
-    console.log(findableMobs);
+    console.log(mobArray);
     console.log(collectableObject);
     console.log(tileArray);
 }
@@ -185,6 +185,7 @@ function collision() {
             noteArray[object.objID].collected = true;
             displayMsg = true;
             currentText = object.text;
+            player.collected++;
         }
     })
 
@@ -222,6 +223,25 @@ function drawCursorCircle() {
     c.closePath();
 }
 
+// function message(currentText) {
+//     c.save();
+//     c.fillStyle = 'rgba(0, 0, 0, 0.8)';
+//     c.fillRect(0, 0, 1920, 300); // Fill the background
+//     c.fillStyle = 'white';
+//     c.font = '30px Arial';
+//     c.textAlign = 'center';
+//     c.textBaseline = 'middle';
+//     c.fillText(currentText, 1920 / 2, 300 / 2);
+
+//     // Add a small text in the right bottom corner
+//     c.font = '20px Arial';
+//     c.textAlign = 'right';
+//     c.textBaseline = 'bottom';
+//     c.fillText('Press C to continue', 1920 - 20, 300 - 20);
+
+//     c.restore();
+// }
+
 function message(currentText) {
     c.save();
     c.fillStyle = 'rgba(0, 0, 0, 0.8)';
@@ -230,16 +250,38 @@ function message(currentText) {
     c.font = '30px Arial';
     c.textAlign = 'center';
     c.textBaseline = 'middle';
-    c.fillText(currentText, 1920 / 2, 300 / 2);
-
+  
+    // Set the maximum width of the text box
+    let maxWidth = 1920 - 40; // adjust this value to change the width of the text box
+  
+    // Split the currentText into multiple lines
+    let lines = currentText.split('\n');
+  
+    // Print multiple lines of text
+    let lineHeight = 40; // adjust this value to change the line spacing
+    let x = 1920 / 2; // center of the canvas
+    let y = 100; // middle of the canvas
+  
+    for (let i = 0; i < lines.length; i++) {
+      let text = lines[i];
+      let metrics = c.measureText(text);
+      if (metrics.width > maxWidth) {
+        // Truncate the text and add an ellipsis
+        let truncatedText = text.substring(0, maxWidth / metrics.width * text.length) + '...';
+        c.fillText(truncatedText, x, y + (i * lineHeight));
+      } else {
+        c.fillText(text, x, y + (i * lineHeight));
+      }
+    }
+  
     // Add a small text in the right bottom corner
     c.font = '20px Arial';
     c.textAlign = 'right';
     c.textBaseline = 'bottom';
     c.fillText('Press C to continue', 1920 - 20, 300 - 20);
-
+  
     c.restore();
-}
+  }
 
 function lightroom() {
     // Draw dark overlay
@@ -267,11 +309,10 @@ canvas.addEventListener('mouseup', () => {
     keys.click = false;
 });
 
-function updateFrame(timestamp) {
-    const deltaTime = timestamp - elapsedTime;
-    if (deltaTime >= 1000 / fps) {
-        currentFrame  += 1;
-        elapsedTime = timestamp;
+function updateFrame() {
+    if(player.collected === 5) {
+        currentMap = 'map1';
+        initializeGame();
     }
 
     c.clearRect(0, 0, canvas.width, canvas.height);

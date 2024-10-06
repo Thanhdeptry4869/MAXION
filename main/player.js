@@ -12,6 +12,7 @@ export class Player extends Object {
         this.sprite = "Max";
         this.direction = true;
         this.color = 'cyan';
+        this.collected = 0;
     }
 
     displaySprite(c, sprites, offset_x, offset_y) {

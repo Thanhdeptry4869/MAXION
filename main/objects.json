@@ -1,49 +1,94 @@
 {
     "notes": [
         {
-            "objID": 0,
-            "text": "Welcome to the adventure! Collect all notes to complete the game.",
-            "collected": false,
-            "x": 440,
-            "y": 200,
-            "width": 200,
-            "height": 200
+          "objID": 0,
+          "text": "While sunlight is the primary energy source for Earth's marine life,\nthis planet relies on chemosynthesis, which utilizes energy from chemical reactions.",
+          "collected": false,
+          "x": 420,
+          "y": 180,
+          "width": 150,
+          "height": 150
         },
         {
-            "objID": 1,
-            "text": "Beware of the dark forest ahead. Many players have gotten lost!",
-            "collected": false,
-            "x": 660,
-            "y": 200,
-            "width": 200,
-            "height": 200
+          "objID": 1,
+          "text": "Heating comes from geophysical processes within the planet's interior\n(for example, from the latent heat of cooling of magmatic fluids within the body's rocky interior),\nmethane escaping from the seafloor at cold seeps, oxidation of ferrous iron through water-rock reactions are\nall contributes to MAXION's energy source.",
+          "collected": false,
+          "x": 600,
+          "y": 180,
+          "width": 150,
+          "height": 150
         },
         {
-            "objID": 2,
-            "text": "You can find hidden treasures in the caves. Keep your eyes open!",
-            "collected": false,
-            "x": 880,
-            "y": 200,
-            "width": 200,
-            "height": 200
+          "objID": 2,
+          "text": "Redox reactions, where electrons are transferred between chemical species, are a key aspect of chemosynthesis.\nThis disequilibrium creates a chemical gradient that chemosynthetic organisms can exploit for energy.",
+          "collected": false,
+          "x": 780,
+          "y": 180,
+          "width": 150,
+          "height": 150
         },
         {
-            "objID": 3,
-            "text": "The key to the castle is hidden under a rock near the river.",
-            "collected": false,
-            "x": 1100,
-            "y": 200,
-            "width": 200,
-            "height": 200
+          "objID": 3,
+          "text": "Chemosynthesis allows organisms to thrive in environments devoid of light by harnessing energy from\nchemical reactions and generating organic matter.",
+          "collected": false,
+          "x": 960,
+          "y": 180,
+          "width": 150,
+          "height": 150
         },
         {
-            "objID": 4,
-            "text": "Remember to save your progress regularly!",
-            "collected": false,
-            "x": 440,
-            "y": 420,
-            "width": 200,
-            "height": 200
+          "objID": 4,
+          "text": "Chemosynthetic microbes rely on the energy released from chemical reactions involving reduced compounds\nlike hydrogen sulfide, methane, and iron. ",
+          "collected": false,
+          "x": 420,
+          "y": 360,
+          "width": 150,
+          "height": 150
+        },
+        {
+          "objID": 5,
+          "text": "Chemosynthetic microbes form the base of unique food chains in deep-sea ecosystems.",
+          "collected": false,
+          "x": 600,
+          "y": 360,
+          "width": 150,
+          "height": 150
+        },
+        {
+          "objID": 6,
+          "text": "Compared to the Earth where 90% of marine creatures live near the surface of the ocean, on this planet, we hardly find any creature here.",
+          "collected": false,
+          "x": 780,
+          "y": 360,
+          "width": 150,
+          "height": 150
+        },
+        {
+          "objID": 7,
+          "text": "Deep sea basins produce dense brines with high salinity, creating distinctive underwater lakes. Because of their lack of oxygen,\nthese environments are hazardous and poisonous to most marine organisms.",
+          "collected": false,
+          "x": 960,
+          "y": 360,
+          "width": 150,
+          "height": 150
+        },
+        {
+          "objID": 8,
+          "text": "Hydrothermal vents are openings on the seafloor where geothermally heated water flows out.\nThey are found in volcanically active areas, such as mid-ocean ridges. These vents release reduced chemicals, like hydrogen sulfide,\nthat chemosynthetic microbes can use to produce organic material and thus support life",
+          "collected": false,
+          "x": 420,
+          "y": 540,
+          "width": 150,
+          "height": 150
+        },
+        {
+          "objID": 9,
+          "text": "We are MAXION, students from HCMUS, TDTU and RMIT, we love science and we want to\nmake it more accessible to students!",
+          "collected": false,
+          "x": 600,
+          "y": 540,
+          "width": 150,
+          "height": 150
         }
     ],
     "mobs": [
@@ -58,13 +103,13 @@
             },
             "found": false,
             "block": {
-                "x": 440,
-                "y": 200,
+                "x": 420,
+                "y": 180,
                 "width": 200,
                 "height": 200
             },
-            "x": 440,
-            "y": 200,
+            "x": 420,
+            "y": 180,
             "width": 126,
             "height": 102,
             "hp": 100,
@@ -81,13 +126,13 @@
             },
             "found": false,
             "block": {
-                "x": 660,
-                "y": 200,
+                "x": 540,
+                "y": 180,
                 "width": 200,
                 "height": 200
             },
-            "x": 660,
-            "y": 200,
+            "x": 540,
+            "y": 180,
             "width": 34,
             "height": 39,
             "hp": 80,
@@ -104,13 +149,13 @@
             },
             "found": false,
             "block": {
-                "x": 880,
-                "y": 200,
+                "x": 660,
+                "y": 180,
                 "width": 200,
                 "height": 200
             },
-            "x": 880,
-            "y": 200,
+            "x": 660,
+            "y": 180,
             "width": 132,
             "height": 114,
             "hp": 150,
@@ -127,13 +172,13 @@
             },
             "found": false,
             "block": {
-                "x": 1100,
-                "y": 200,
+                "x": 780,
+                "y": 180,
                 "width": 200,
                 "height": 200
             },
-            "x": 1100,
-            "y": 200,
+            "x": 780,
+            "y": 180,
             "width": 171,
             "height": 180,
             "hp": 200,
@@ -150,13 +195,13 @@
             },
             "found": false,
             "block": {
-                "x": 440,
-                "y": 420,
+                "x": 900,
+                "y": 180,
                 "width": 200,
                 "height": 200
             },
-            "x": 440,
-            "y": 420,
+            "x": 900,
+            "y": 180,
             "width": 93,
             "height": 96,
             "hp": 100,
@@ -173,13 +218,13 @@
             },
             "found": false,
             "block": {
-                "x": 660,
-                "y": 420,
+                "x": 420,
+                "y": 300,
                 "width": 200,
                 "height": 200
             },
-            "x": 660,
-            "y": 420,
+            "x": 420,
+            "y": 300,
             "width": 320,
             "height": 240,
             "hp": 1000,
@@ -196,13 +241,13 @@
             },
             "found": false,
             "block": {
-                "x": 880,
-                "y": 420,
+                "x": 540,
+                "y": 300,
                 "width": 200,
                 "height": 200
             },
-            "x": 880,
-            "y": 420,
+            "x": 540,
+            "y": 300,
             "width": 128,
             "height": 128,
             "hp": 200,
@@ -219,13 +264,13 @@
             },
             "found": false,
             "block": {
-                "x": 1100,
-                "y": 420,
+                "x": 660,
+                "y": 300,
                 "width": 200,
                 "height": 200
             },
-            "x": 1100,
-            "y": 420,
+            "x": 660,
+            "y": 300,
             "width": 128,
             "height": 128,
             "hp": 100,
@@ -242,13 +287,13 @@
             },
             "found": false,
             "block": {
-                "x": 440,
-                "y": 640,
+                "x": 780,
+                "y": 300,
                 "width": 200,
                 "height": 200
             },
-            "x": 440,
-            "y": 640,
+            "x": 780,
+            "y": 300,
             "width": 128,
             "height": 128,
             "hp": 1000,
@@ -265,13 +310,13 @@
             },
             "found": false,
             "block": {
-                "x": 660,
-                "y": 640,
+                "x": 900,
+                "y": 300,
                 "width": 200,
                 "height": 200
             },
-            "x": 660,
-            "y": 640,
+            "x": 900,
+            "y": 300,
             "width": 128,
             "height": 128,
             "hp": 100,
@@ -288,13 +333,13 @@
             },
             "found": false,
             "block": {
-                "x": 880,
-                "y": 640,
+                "x": 420,
+                "y": 420,
                 "width": 200,
                 "height": 200
             },
-            "x": 880,
-            "y": 640,
+            "x": 420,
+            "y": 420,
             "width": 128,
             "height": 128,
             "hp": 1000,
@@ -311,13 +356,13 @@
             },
             "found": false,
             "block": {
-                "x": 880,
-                "y": 640,
+                "x": 540,
+                "y": 420,
                 "width": 200,
                 "height": 200
             },
-            "x": 880,
-            "y": 640,
+            "x": 540,
+            "y": 420,
             "width": 128,
             "height": 128,
             "hp": 1000,
@@ -334,13 +379,13 @@
             },
             "found": false,
             "block": {
-                "x": 880,
-                "y": 640,
+                "x": 660,
+                "y": 420,
                 "width": 200,
                 "height": 200
             },
-            "x": 880,
-            "y": 640,
+            "x": 660,
+            "y": 420,
             "width": 128,
             "height": 128,
             "hp": 1000,
@@ -357,13 +402,13 @@
             },
             "found": false,
             "block": {
-                "x": 880,
-                "y": 640,
+                "x": 780,
+                "y": 420,
                 "width": 200,
                 "height": 200
             },
-            "x": 880,
-            "y": 640,
+            "x": 780,
+            "y": 420,
             "width": 128,
             "height": 128,
             "hp": 1000,
@@ -380,13 +425,13 @@
             },
             "found": false,
             "block": {
-                "x": 880,
-                "y": 640,
+                "x": 900,
+                "y": 420,
                 "width": 200,
                 "height": 200
             },
-            "x": 880,
-            "y": 640,
+            "x": 900,
+            "y": 420,
             "width": 128,
             "height": 128,
             "hp": 1000,
@@ -403,17 +448,63 @@
             },
             "found": false,
             "block": {
-                "x": 880,
-                "y": 640,
+                "x": 420,
+                "y": 540,
                 "width": 200,
                 "height": 200
             },
-            "x": 880,
-            "y": 640,
+            "x": 420,
+            "y": 540,
             "width": 128,
             "height": 128,
             "hp": 1000,
             "sprite": "Stonebug"
+        },
+        {
+            "objID": 16,
+            "name": "Seanet",
+            "type": "aggressive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 540,
+                "y": 540,
+                "width": 200,
+                "height": 200
+            },
+            "x": 540,
+            "y": 540,
+            "width": 128,
+            "height": 128,
+            "hp": 1000,
+            "sprite": "Seanet"
+        },
+        {
+            "objID": 17,
+            "name": "Tubeworm",
+            "type": "aggressive",
+            "description": {
+                "habitat": "Towns and villages",
+                "food": "Tea and biscuits",
+                "behavior": "Gives advice to players"
+            },
+            "found": false,
+            "block": {
+                "x": 660,
+                "y": 540,
+                "width": 200,
+                "height": 200
+            },
+            "x": 660,
+            "y": 540,
+            "width": 128,
+            "height": 128,
+            "hp": 1000,
+            "sprite": "Tubeworm"
         }
     ]
 }

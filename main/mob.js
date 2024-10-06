@@ -227,6 +227,26 @@ const mobClasses = {
             this.moving(600);
             this.displayMob(c);
         }
+    },
+
+    Tubeworm: class Tubeworm extends Mob {
+        constructor(objID, x, y, info, sprite) {
+            super(objID, x, y, info, sprite);
+        }
+
+        updateMob(player, c) {
+            this.displayMob(c);
+        }
+    },
+
+    Seanet: class Seanet extends Mob {
+        constructor(objID, x, y, info, sprite) {
+            super(objID, x, y, info, sprite);
+        }
+
+        updateMob(player, c) {
+            this.displayMob(c);
+        }
     }
   };
   

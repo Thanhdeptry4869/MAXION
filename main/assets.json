@@ -190,6 +190,20 @@
             "frame": 15
         },
         {
+            "name": "Tubeworm",
+            "url": "/MAXION/assets/sprites/mobs/Tubeworm.png",
+            "width": 64,
+            "height": 64,
+            "frame": 4
+        },
+        {
+            "name": "Seanet",
+            "url": "/MAXION/assets/sprites/mobs/Seanet.png",
+            "width": 64,
+            "height": 64,
+            "frame": 5
+        },
+        {
             "name": "note",
             "url": "/MAXION/assets/sprites/item/note.png",
             "width": 64,
@@ -214,6 +228,18 @@
         {
             "name": "tileset4",
             "url": "/MAXION/assets/tilesets/tileset4.png"
+        },
+        {
+            "name": "tileset5",
+            "url": "/MAXION/assets/tilesets/tileset5.png"
+        },
+        {
+            "name": "tileset6",
+            "url": "/MAXION/assets/tilesets/tileset6.png"
+        },
+        {
+            "name": "tileset7",
+            "url": "/MAXION/assets/tilesets/tileset7.png"
         },
         {
             "name": "background4",
